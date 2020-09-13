@@ -34,6 +34,7 @@ public class SignIn extends TestBase {
 		log.info("Waited till the login button becomes clickable");
 		
 		LoginPage lnp = new LoginPage(driver);
+		log.info("new line here");
 		
 		lnp.username().sendKeys(username);
 		lnp.password().sendKeys(password);
